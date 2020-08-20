@@ -21,7 +21,7 @@
        import 
          (pkgs.fetchFromGitHub { 
            owner = "LightAndLight"; 
-           repo = "k2tf"; 
+           repo = "k2tf.nix"; 
            rev = "<version>"; 
            sha256 = "<sha256>"; 
          }) 
