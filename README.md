@@ -20,12 +20,12 @@
      k2tf = 
        import 
          (pkgs.fetchFromGitHub { 
-	   owner = "LightAndLight"; 
-	   repo = "k2tf"; 
-	   rev = "<version>"; 
-	   sha256 = "<sha256>"; 
-	 }) 
-	 { inherit pkgs; };
+           owner = "LightAndLight"; 
+           repo = "k2tf"; 
+           rev = "<version>"; 
+           sha256 = "<sha256>"; 
+         }) 
+         { inherit pkgs; };
    in
      k2tf
    EOF
